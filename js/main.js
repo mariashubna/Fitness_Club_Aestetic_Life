@@ -159,13 +159,13 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Philosophy",
             simpleText: "of Aesthetic Life",
-            bgImage: "url(../images/bg-mobile-2.jpg)",
+            bgImage: "url(images/bg-mobile-2.jpg)",
         },
         {
             text: "Push",
             secondText: "or Die",
             simpleText: "",
-            bgImage: "url(../images/bg-mobile-3.jpg)",
+            bgImage: "url(images/bg-mobile-3.jpg)",
         },
     ];
 
@@ -173,23 +173,23 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Lift or go f*rk",
             simpleText: "",
-            bgImage: "url(/images/bg-tablet-1.jpg)",
+            bgImage: "url(images/bg-tablet-1.jpg)",
         },
         {
             text: "Join the Lifestyle",
             simpleText: "of Aesthetic Life",
-            bgImage: "url(../images/bg-tablet-3.jpg)",
+            bgImage: "url(images/bg-tablet-3.jpg)",
         },
         {
             text: "Philosophy",
             simpleText: "of Aesthetic Life",
-            bgImage: "url(../images/bg-tablet-2.jpg)",
+            bgImage: "url(images/bg-tablet-2.jpg)",
         },
         {
             text: "Push",
             secondText: "or Die",
             simpleText: "",
-            bgImage: "url(../images/bg-tablet-4.jpg)",
+            bgImage: "url(images/bg-tablet-4.jpg)",
         },
         
     ];
@@ -198,13 +198,13 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Lift or go f*rk",
             simpleText: "",
-            bgImage: "url(../images/bg-desktop-1.jpg)",
+            bgImage: "url(images/bg-desktop-1.jpg)",
         },
         {
             text: "Join the Lifestyle",
             simpleText: "of",
             simpleTextSecond: "Aesthetic Life",
-            bgImage: "url(../images/bg-desktop-2.jpg)",
+            bgImage: "url(images/bg-desktop-2.jpg)",
             color: "white",
             fill: "black",
             width: "860px",
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
             text: "Philosophy",
             simpleText: "of",
             simpleTextSecond: "Aesthetic Life",
-            bgImage: "url(../images/bg-desktop-3.jpg)",
+            bgImage: "url(images/bg-desktop-3.jpg)",
             color: "white",
             fill: "black",
         },
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
             text: "Push",
             secondText: "or Die",
             simpleText: "",
-            bgImage: "url(../images/bg-desktop-4.jpg)",
+            bgImage: "url(images/bg-desktop-4.jpg)",
         },
         
         
@@ -231,19 +231,19 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Lift or go f*rk",
             simpleText: "",
-            bgImage: "url(./images/bg-full-hd-1.jpg)",
+            bgImage: "url(images/bg-full-hd-1.jpg)",
         },
         {
             text: "Join the Lifestyle",
             simpleText: "of Aesthetic Life",
-            bgImage: "url(../images/bg-full-hd-2.jpg)",
+            bgImage: "url(images/bg-full-hd-2.jpg)",
             fontSize: "88px",
             fill: "black",
         },
         {
             text: "Philosophy",
             simpleText: "of Aesthetic Life",
-            bgImage: "url(../images/bg-full-hd-3.jpg)",
+            bgImage: "url(images/bg-full-hd-3.jpg)",
             fontSize: "88px",
             fill: "black",
         },
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
             text: "Push",
             secondText: "or Die",
             simpleText: "",
-            bgImage: "url(../images/bg-full-hd-4.jpg)",
+            bgImage: "url(images/bg-full-hd-4.jpg)",
         },
     ];
 
