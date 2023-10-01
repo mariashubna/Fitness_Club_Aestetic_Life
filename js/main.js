@@ -256,19 +256,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const maxColorHeightMobile = 70; // Высота для мобильных устройств
     const maxColorHeightTablet = 116; // Высота для планшетных устройств
     const maxColorHeightDesktop = 176; // Высота для десктопных устройств
-    const maxColorHeightFull = 215; // Высота для Full HD
+    const maxColorHeightFull = 215;
 
     let currentSlide = 0;
 
-    // Функция для предзагрузки изображений
-    function preloadImages(images) {
-        for (let i = 0; i < images.length; i++) {
+    // Загрузка фоновых изображений заранее
+    function preloadImages(slides) {
+        slides.forEach((slide) => {
             const img = new Image();
-            img.src = images[i].bgImage;
-        }
+            img.src = slide.bgImage;
+        });
     }
 
-    // Предзагрузка изображений для всех устройств
     preloadImages(slidesMobile);
     preloadImages(slidesTablet);
     preloadImages(slides1280);
@@ -295,9 +294,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const slide = slides[currentSlide];
 
         counterBlockColor.style.height = maxColorHeight + "px";
-        slideContainer.style.backgroundImage = slide.bgImage;
+        slideContainer.style.backgroundImage = `url(${slide.bgImage})`;
         slideContainer.querySelector(".header-content-text").textContent = slide.text;
-        slideContainer.querySelector(".header-content-text").style.color = slide.color || "black";
+        slideContainer.querySelector(".header-content-text").style.color = slide.color || "black"; // Устанавливаем цвет текста
         slideContainer.querySelector(".header-content-text").style.fontSize = slide.fontSize || "";
         slideContainer.querySelector(".header-content-second").textContent = slide.secondText || "";
         slideContainer.querySelector(".header-simple-text").textContent = slide.simpleText;
