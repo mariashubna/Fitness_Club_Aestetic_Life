@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Lift or go f*rk",
             simpleText: "",
-            bgImage: "url(../images/bg-mobile-1.jpg)",
+            bgImage: "url(images/bg-mobile-1.jpg)",
         },
         {
             text: "Philosophy",
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Lift or go f*rk",
             simpleText: "",
-            bgImage: "url(../images/bg-tablet-1.jpg)",
+            bgImage: "url(/images/bg-tablet-1.jpg)",
         },
         {
             text: "Join the Lifestyle",
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             text: "Lift or go f*rk",
             simpleText: "",
-            bgImage: "url(../images/bg-full-hd-1.jpg)",
+            bgImage: "url(./images/bg-full-hd-1.jpg)",
         },
         {
             text: "Join the Lifestyle",
